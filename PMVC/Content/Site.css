@@ -1,0 +1,14 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.card{display: block;
+      float:left;
+      color:hotpink;
+      background-color:azure;
+    padding:18px;
+  
+
+}
+

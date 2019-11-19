@@ -1,0 +1,24 @@
+﻿@model IEnumerable<PMVC.Student>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@foreach (var item in Model)
+{
+    
+        <div class="card" style="width: 18rem;">
+           
+            <div class="card-body">
+                <h5 class="card-title">@item.StudentID</h5>
+                <p class="card-text">@item.FirstName @item.LastName</p>
+                <a href="#" class="btn btn-primary">click ittttt</a>
+            </div>
+        </div>
+
+    //website URL: http://localhost:59871/Students/Index
+}
+
+
